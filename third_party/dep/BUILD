@@ -1,3 +1,5 @@
+package(default_visibility = ["//visibility:public"])
+
 filegroup(
     name = "dep_filegroup",
     srcs = ["filegroup_header.h"],
